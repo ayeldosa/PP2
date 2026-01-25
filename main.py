@@ -1,2 +1,2 @@
-a =int(input())
-print(a)
+hui = int(input())
+print(hui)
