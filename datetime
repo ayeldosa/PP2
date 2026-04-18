@@ -1,0 +1,13 @@
+import re
+import json
+
+data = '[{"name":"yeldos","age":18}]'
+
+pattern = r"^[a-z]+$"
+
+new = json.loads(data)
+
+# for user in new:
+#     if re.fullmatch(pattern, user["name"]):
+#         print(user["age"])
+print(new)
