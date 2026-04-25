@@ -1,6 +1,4 @@
 import pygame
-import sys
-import os
 import datetime
 
 pygame.init()
@@ -11,12 +9,9 @@ pygame.display.set_caption("Mickey Clock")
 
 clock_fps = pygame.time.Clock()
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-images_folder = os.path.join(BASE_DIR, "images")
-
-clock_bg = pygame.image.load(os.path.join(images_folder, "clock.jpg")).convert_alpha()
-left_hand = pygame.image.load(os.path.join(images_folder, "left_hand.png")).convert_alpha()
-right_hand = pygame.image.load(os.path.join(images_folder, "right_hand.png")).convert_alpha()
+clock_bg = pygame.image.load("/Users/pelmen/Desktop/programs/PP2-1/lab9/MickeyCloak/images/clock.jpg")
+left_hand = pygame.image.load("/Users/pelmen/Desktop/programs/PP2-1/lab9/MickeyCloak/images/right_hand.png")
+right_hand = pygame.image.load("/Users/pelmen/Desktop/programs/PP2-1/lab9/MickeyCloak/images/left_hand.png")
 
 clock_bg = pygame.transform.scale(clock_bg, (600, 600))
 left_hand = pygame.transform.scale(left_hand, (700, 500))
@@ -65,4 +60,3 @@ while running:
     
 
 pygame.quit()
-sys.exit()

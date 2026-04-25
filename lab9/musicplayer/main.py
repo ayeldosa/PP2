@@ -11,7 +11,7 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 font = pygame.font.SysFont(None, 40)
-music_folder = "music"
+music_folder = "/Users/pelmen/Desktop/programs/PP2-1/lab9/musicplayer/music"
 playlist = [
     os.path.join(music_folder, file)
     for file in os.listdir(music_folder)
