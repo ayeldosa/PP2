@@ -1,0 +1,6 @@
+first_name,last_name,email,birthday,group,phone,phone_type
+Alice,Smith,alice@gmail.com,1990-05-14,Friend,+77001112233,mobile
+Bob,Johnson,bob@work.com,1985-11-03,Work,+77002223344,work
+Carol,Williams,carol@yahoo.com,1995-07-22,Family,+77003334455,home
+David,Brown,david@gmail.com,2000-01-30,Friend,+77004445566,mobile
+Eve,Davis,eve@company.org,1978-03-18,Work,+77005556677,work
